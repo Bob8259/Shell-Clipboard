@@ -21,7 +21,6 @@ class MyInputMethodService : InputMethodService() {
     private val myReceiver = object : BroadcastReceiver() {
         override fun onReceive(context: Context?, intent: Intent?) {
             val clipboard = getSystemService(CLIPBOARD_SERVICE) as ClipboardManager
-            println(intent?.action)
             when (intent?.action) {
                 ACTION_READ_CLIPBOARD -> {
                     val clip: ClipData? = clipboard.primaryClip
