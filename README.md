@@ -4,7 +4,7 @@
 
 Starting from Android 10, Google introduced a **privacy restriction on clipboard access**: only the currently focused app or input methods (IMEs) can read the clipboard, and applications can not read the clipboard in the background even with root access. This change significantly limits developers' ability to monitor or control the clipboard via ADB or automation tools. 
 
-To address this limitation, this project provides a new solution: **a custom software input method**. By acting as an IME, this app can access the clipboard without restrictions, while still communicating with users or scripts via ADB or Shell.
+To address this limitation, this project provides a new solution: **a custom software input method**. By acting as an IME, this app can access the clipboard without restrictions. It can control the clipboard in the background while communicating with users via ADB or Shell.
 
 ---
 
