@@ -62,6 +62,7 @@ You may download the code from this repository and open it with Android Studio N
 ## Notes
 
 - This input method must be **enabled and selected** for clipboard commands to work.
+- Remember to switch back to your original input method after using this application.
 
 ## Personal Notes
 
