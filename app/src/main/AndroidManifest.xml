@@ -23,7 +23,16 @@
                 android:name="android.view.im"
                 android:resource="@xml/method" />
         </service>
-
+        <receiver
+            android:name=".ClipboardReceiver"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.example.input.ACTION_READ_CLIPBOARD" />
+                <action android:name="com.example.input.ACTION_SET_CLIPBOARD" />
+                <action android:name="com.example.input.ACTION_CLEAR_CLIPBOARD" />
+            </intent-filter>
+        </receiver>
         <activity
             android:name=".MainActivity"
             android:exported="true"

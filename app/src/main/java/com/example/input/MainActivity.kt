@@ -16,6 +16,7 @@ class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
+        println("start")
         setContent {
             InputTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
