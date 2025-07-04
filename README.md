@@ -11,7 +11,7 @@ To address this limitation, this project provides a new solution: **a custom sof
 ## Usage
 
 1. **Download and Install**
-   - Get the release APK from the [GitHub Releases]((https://github.com/Bob8259/Shell-Clipboard/releases/tag/release)) page and install it on your device.
+   - Get the release APK from the [GitHub Releases](https://github.com/Bob8259/Shell-Clipboard/releases/tag/release) page and install it on your device.
 
 2. **Enable the Input Method**
    ```sh
